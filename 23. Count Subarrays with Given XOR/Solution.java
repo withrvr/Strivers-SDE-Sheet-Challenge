@@ -6,7 +6,7 @@ public class Solution {
 		int xor = 0;
 
 		HashMap<Integer, Integer> map = new HashMap<>();
-		map.put(0, 1);
+		map.put(0, 1); // IMP ... IMP
 
 		for (int val : arr) {
 			xor ^= val;
